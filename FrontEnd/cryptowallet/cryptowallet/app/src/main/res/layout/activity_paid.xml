@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03468f"
+    tools:context=".Paid">
+
+    <Button
+        android:id="@+id/backButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#646464"
+        android:text="@string/go_back3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewconsulbutton" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="106dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/crypto_logo"
+        android:contentDescription="@string/crypto_wallet_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="243dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="568dp"
+        android:gravity="center_horizontal"
+        android:text="@string/paid_features2"
+        android:backgroundTint="#646464"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/requestConsulButton"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="11dp"
+        android:backgroundTint="#646464"
+        android:text="@string/request_1_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/cancelConsulButton"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="284dp"
+        android:backgroundTint="#646464"
+
+        android:text="@string/cancel_1_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestConsulButton" />
+
+    <Button
+        android:id="@+id/viewconsulbutton"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="192dp"
+        android:backgroundTint="#646464"
+
+        android:text="View 1-1 Sessions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancelConsulButton" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="71dp"
+        android:text="@string/paid_text"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/requestConsulButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

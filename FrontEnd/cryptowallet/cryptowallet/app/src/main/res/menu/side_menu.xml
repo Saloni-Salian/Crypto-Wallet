@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:title="Home Page" />
+
+        <item
+            android:id="@+id/view_wallet"
+            android:title="View Wallet" />
+        <item
+            android:id="@+id/send_funds"
+            android:title="Send Funds" />
+        <item
+            android:id="@+id/view_keys"
+            android:title="View Keys" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+</menu>

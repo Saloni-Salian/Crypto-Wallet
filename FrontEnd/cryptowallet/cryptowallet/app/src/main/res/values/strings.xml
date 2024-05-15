@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">cryptowallet</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="go_back">Go Back</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- ViewBalance -->
+    <string name="view_balance">Select cryptocurrency to view balance</string>
+    <!-- ViewKeys -->
+    <string name="view_keys">Select cryptocurrency to view keys</string>
+    <!-- SendFunds -->
+    <string name="send_funds">Select cryptocurrency to send funds</string>
+    <!-- Hamburger toggle -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="pin">Pin</string>
+    <string name="forgot">Forgot</string>
+    <string name="login">Login</string>
+    <string name="enter_your_pin">Enter your PIN</string>
+    <string name="staff_login">Staff Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="view_private_keys">View Private Keys</string>
+    <string name="view_wallet">View Wallet</string>
+    <string name="view_account"> View Account</string>
+    <string name="account">Account</string>
+    <string name="subscription">Subscription</string>
+    <string name="_2_factor_authentication">2 Factor Authentication</string>
+    <string name="remove_account">Remove Account</string>
+    <string name="crypto_wallet_logo">crypto wallet logo</string>
+    <string name="go_back2">Go back</string>
+    <string name="_2fa">2FA</string>
+    <string name="email">Email:</string>
+    <string name="FA_email_input_text">Once email is inputted you will receive emails upon login.</string>
+    <string name="go_back3">Go back</string>
+    <string name="paid">Paid</string>
+    <string name="request_1_1">Request 1-1</string>
+    <string name="cancel_1_1">Cancel 1-1</string>
+    <string name="paid_text">Since you have paid subscription, you have unlocked paid features</string>
+    <string name="go_back4">Go back</string>
+    <string name="remove_account_title">Remove Account</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="no">No</string>
+    <string name="downgrade_to_free">Downgrade to Free</string>
+    <string name="go_back5">Go back</string>
+    <string name="subscription_title">Subscription</string>
+    <string name="paid_features">Paid Features</string>
+    <string name="upgrade_account_title">Upgrade Account</string>
+    <string name="paid_features2">Paid Features</string>
+
+    <string name="upgrade_to_paid">Upgrade to Paid</string>
+    <string name="view_wallet_text">View Wallet</string>
+    <string name="btc_current_price">£ BTC current price</string>
+    <string name="eth_current_price">£ ETH current price</string>
+    <string name="bitcoin_button">Bitcoin</string>
+    <string name="ethereum_button">Ethereum</string>
+    <string name="bitcoin_image">Bitcoin Image</string>
+    <string name="ethereum_image">Ethereum Image</string>
+    <string name="btc_asset_obtained">£ Asset obtained</string>
+    <string name="eth_asset_obtained">£ Asset obtained</string>
+    <string name="page_desc">Cryptocurrencies available to buy</string>
+    <string name="bitcoin_btc">Bitcoin (BTC)</string>
+    <string name="bitcoin_image2">Bitcoin Image</string>
+    <string name="btc_asset_obtained2">£ Asset Obtained</string>
+    <string name="btc_transactions">Transactions</string>
+    <string name="btc_current_price2">£ BTC current price</string>
+    <string name="transaction_desc">Your transactions will appear here</string>
+    <string name="ethereum_eth">Ethereum (ETH)</string>
+    <string name="ethereum_image2">ethereum image</string>
+    <string name="eth_asset_obtained2">£ Asset Obtained</string>
+    <string name="eth_current_price2">£ ETH current price</string>
+    <string name="eth_transactions">Transactions</string>
+    <string name="transactions_desc">Your transactions will appear here</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="transaction_completed">Transaction Completed</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="import_wallet">Import Wallet</string>
+</resources>
